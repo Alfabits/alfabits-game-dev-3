@@ -8,12 +8,12 @@ This should be included on every page.
  /* Fonts */
 @font-face{
 	font-family: Quicktype Condensed;
-	src: url(Fonts/QuickType Condensed.ttf);
+	src: url(../Fonts/QuickType Condensed.ttf);
 }
  
 @font-face{
 	font-family: Quicktype Condensed;
-	src: url(Fonts/QuickType Condensed.ttf);
+	src: url(../Fonts/QuickType Condensed.ttf);
 	font-weight: bold;
 }
 
