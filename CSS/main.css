@@ -1,0 +1,376 @@
+/* 
+Generic Style Sheet for Andrew Moore Site
+Created By: Andrew Moore
+Purpose: Includes code for the sidebar and global page elements.
+This should be included on every page. 
+ */
+
+ /* Fonts */
+@font-face{
+	font-family: Quicktype Condensed;
+	src: url(Fonts/QuickType Condensed.ttf);
+}
+ 
+@font-face{
+	font-family: Quicktype Condensed;
+	src: url(Fonts/QuickType Condensed.ttf);
+	font-weight: bold;
+}
+
+body {
+	font-family: "Quicktype Condensed";
+	width: auto;
+	height: auto;
+	background: url(../images/polygon_background.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	box-sizing: border-box;
+	border: 15px solid #e7003b;
+	margin: 0px 0px 0px 300px;
+	overflow: auto;
+}
+
+/* Page Content */
+.content {
+	font-family: "Quicktype Condensed";
+	margin: 10px 0px 10px 20px;
+	transition: margin-top .5s;
+	height: 80%;
+	overflow: auto;
+}
+
+.content h1, p {
+	color:black;
+}
+
+.content hr {
+	color:black;
+	margin: 10px 15px 20px 0px;
+	height: 1px;
+	border: none;
+    border-top: 1px solid #000000;
+}
+
+.no_picture_info  a {
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+}
+
+.content a {
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+}
+
+.content a:hover {
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	color: #ff0043;
+}
+
+.content a.twitter_link {
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+}
+
+.content a.twitter_link:hover {
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	color: #1DA1F2;
+}
+
+/* Index Page Content */
+.index_content {
+	font-family: "Quicktype Condensed";
+	margin: 10px 0px 10px 20px;
+	transition: margin-top .5s;
+	height: 100%;
+	overflow: auto;
+}
+
+.index_content h1, p {
+	color:black;
+}
+
+.index_content p {
+	font-size: 25px;
+	margin: -10px 0px 20px 0px
+}
+
+.index_content hr {
+	color:black;
+	margin: 10px 15px 20px 0px;
+	height: 1px;
+	border: none;
+    border-top: 1px solid #000000;
+}
+
+
+/* Side Navigation Bar */
+.sidenav {
+	font-family: "QuickType Condensed";
+	height: 100%;
+	width: 300px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: black;
+	overflow-x: hidden;
+	padding-top: 60px;
+}
+
+.sidebarbg {
+	height: 100%;
+	width: 300px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: black;
+	overflow-x: hidden;
+	padding-top: 60px;
+}
+
+.sidenav h1 {
+	color: white;
+	display: block;
+	text-align: center;
+	padding: 0px 0px 0px 0px;
+	margin: -40px 0px -10px 0px;
+}
+
+.sidenav h1 a {
+	text-decoration: none;
+	color: white;
+	display: block;
+	text-align: center;
+	padding: 0px 0px 0px 0px;
+	margin: 14px 0px -10px 0px;
+}
+
+.sidenav h1 a:hover {
+	text-decoration: none;
+	color: #e7003b;
+	display: block;
+	text-align: center;
+	padding: 0px 0px 0px 0px;
+	margin: 14px 0px -10px 0px;
+}
+
+.sidenav h2 {
+	color: white;
+	display: block;
+	text-align: center;
+	font-size: 15px;
+	margin: 5px 0px 20px 0px;
+}
+
+.sidenav #first_hr {
+	color:white;
+	margin: 10px 15px 20px 15px;
+	height: 1px;
+	border: none;
+    border-top: 1px solid #FFFFFF;
+	opacity: 0.6;
+}
+
+.sidenav #second_hr {
+	color:white;
+	margin: 10px 15px 20px 15px;
+	height: 1px;
+	border: none;
+    border-top: 1px solid #FFFFFF;
+	opacity: 0.6;
+}
+
+.sidenav .nav_tags a{
+	font-size: 25px;
+	text-align: right;
+	padding: 8px 8px 8px 8px;
+	margin: -20px 9px 10px 0px;
+	text-decoration: none;
+	color: #e7003b;
+	display: block;
+	font-weight: bold;
+}
+
+.sidenav .nav_tags a.active_page {
+	font-size: 25px;
+	text-align: right;
+	padding: 8px 8px 8px 8px;
+	margin: -20px 9px 10px 0px;
+	text-decoration: none;
+	color: white;
+	display: block;
+	font-weight: bold;
+}
+
+.sidenav a:hover {
+	color: white;
+	font-weight: bold;
+}
+
+.sidenav p {
+	color: white;
+	text-align: center;
+	margin: -10px 0px 0px 0px;
+}
+
+@media screen and (max-height: 450px) {
+	.sidenav {padding-top: 15px;}
+	.sidenav a {font-size: 18px;}
+}
+
+/* Expandable Boxes */
+.recent_experience {
+	height: 114px;
+    z-index: 1;
+    overflow-y: hidden;
+	margin: 5px 0px 10px 0px;
+	display: block;
+    transition: 0.5s;
+}
+
+.not_hovered_exp {
+	height: 114px;
+    z-index: 1;
+    overflow-y: hidden;
+	margin: 5px 0px 10px 0px;
+	display: block;
+    transition: margin-top .5s;
+}
+
+ /* Overlay Boxes */
+ 
+ .showcase {
+	display: block;
+	margin: 20px 0px 20px 0px;
+	font-family: "Quicktype Condensed";
+	height: 80%;
+	overflow: auto;
+	color: black;
+}
+
+.showcase h1 {
+	float: left;
+	font-size: 40px;
+	margin: 0px 20px 0px 0px;
+	color: black;
+}
+
+.showcase p {
+	font-size: 20px;
+	float: left;
+	margin: 0px 0px 0px 21.5px;
+	color: black;
+}
+
+.showcase .box_item {
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin: 10px 10px 10px 10px;
+}
+
+.showcase .box_item a {
+	width: 200px;
+	height: 200px;
+	text-decoration: none;
+	color: white;
+	position: absolute;
+	display: block;
+	z-index: 20;
+}
+
+.showcase .box_item a:hover {
+	color: white;
+}
+
+.showcase .box_item .box_item_picture {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	display: block;
+	z-index: 10;
+	overflow: hidden;
+}
+
+.showcase .box_item .box_item_overlay {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	display: block;
+	z-index: 20;
+	background-color: rgba(0,0,0,0.6);
+	overflow: hidden;
+	opacity: 0;
+	transition: 0.3s;
+}
+
+.showcase .box_item .box_item_overlay .box_item_name{
+	width: 180px;
+	position: absolute;
+	padding: 10px;
+	font-size: 16px;
+	font-weight: 800;
+	background-color: rgba(0,0,0,0.8);
+	
+}
+
+.showcase .box_item .box_item_overlay .box_item_bottom_content {
+	padding: 10px;
+	width: 180px;
+	position: absolute;
+	font-size: 14px;
+	white-space: nowrap;
+	background-color: rgba(0,0,0,0.8);
+	bottom: 0px;
+	
+}
+
+.showcase .box_item .box_item_overlay .box_item_genre {
+	font-size: 16px;
+}
+
+.showcase .box_item .box_item_overlay .box_item_platform{
+	font-size: 14px;
+	font-style: italic;
+}
+
+.showcase .box_item .box_item_overlay .box_item_date {
+	font-size: 14px;
+	font-style: italic;
+}
+
+/* Clear */
+.clear {
+	clear:both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

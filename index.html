@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- metadata -->
+		<meta charset="utf-8"/>
+		<!-- Favicon -->
+		<link rel="apple-touch-icon" sizes="57x57" href="../Favicons/Favicons V2/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="../Favicons/Favicons V2/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="../Favicons/Favicons V2/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="../Favicons/Favicons V2/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="../Favicons/Favicons V2/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="../Favicons/Favicons V2/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="../Favicons/Favicons V2/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="../Favicons/Favicons V2/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="../Favicons/Favicons V2/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="../Favicons/Favicons V2/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="../Favicons/Favicons V2/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="../Favicons/Favicons V2/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="../Favicons/Favicons V2/favicon-16x16.png">
+		<link rel="manifest" href="../Favicons/Favicons V2/manifest.json">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+		<!-- Title -->
+		<title>Andrew Moore - Games, Graphics, and Web</title>
+		<!-- Javascript -->
+		<script src="../Javascripts/jquery-3.1.1.min.js"></script>
+		<script src="../Javascripts/sitenav_highlight.js"></script>
+		<script src="../Javascripts/recent_experience_popout.js"></script>
+		<!-- CSS -->
+		<link rel="stylesheet" href="../CSS/main.css"/>
+		
+	</head>
+	
+	<!-- Load the side navigation bar -->
+	<script> 
+		$(function(){
+			$("#sidenav").load("sidenav.html");
+		});
+    </script>
+
+	<div class = "sidebarbg"></div>
+	<div id = "sidenav"></div>
+	
+	<!-- Page Content -->
+	<div class="index_content">
+		<h1>About Me</h1>
+		<hr>
+		<p>My name is Andrew Moore. I'm a <strong>Game Developer</strong>, newly graduated from <strong>Algonquin College</strong>.<br>
+		I'm also available for Web Development and Graphic Design freelance work.</p>
+		
+		<p>I'm currently unemployed and looking for work.</p>
+		<hr>
+		<p>If you're interested in knowing more, check out some of my most recent work!</p>
+		
+		<!-- Andrew Moore Website -->
+		<a href="index.html" class="recent_experience" onmouseover="openExp()" onmouseleave="closeExp()">
+			<img src="../images/andrewsite_banner.png" alt="Andrew Moore Banner" width="1148" height="463">
+		</a>
+		
+		<!-- Deathstrict -->
+		<a href="deathstrict.html" class="recent_experience" onmouseover="openExp()" onmouseleave="closeExp()">
+			<img src="../images/deathstrict_image.png" alt="Deathstrict Banner" width="1148" height="463">
+		</a>
+		
+		<!-- Space Invaders -->
+		<a href="spaceinvaders.html" class="recent_experience" onmouseover="openExp()" onmouseleave="closeExp()">
+			<img src="../images/spaceinvaders.png" alt="Space Invaders: REDACTED Banner" width="1148" height="463">
+		</a>
+		
+	</div>
+	
+	<body>
+		
+	</body>
+	
+	
+</html>

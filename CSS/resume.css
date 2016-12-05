@@ -1,0 +1,200 @@
+/* 
+Resume Style Sheet for Andrew Moore Site
+Created By: Andrew Moore
+Purpose: Includes code for the sidebar and global page elements.
+This should be included on every page. 
+ */
+ 
+ /* Vertical Line General Style */
+ .verticalline {
+	float: left;
+	border-left: 1px solid #000000;
+	padding: 0px 0px 0px 10px;
+ }
+ 
+ /* Header */
+ .header {
+	 display: block;
+	 margin: -5px 0px 0px 0px;
+ }
+ 
+.header p {
+	 margin: 0px 0px 0px 20px;
+	 font-size: 25px;
+ }
+ 
+ .header .myName {
+	 font-size: 50px;
+ }
+ 
+ .header .myFace {
+	 float: left;
+ }
+ 
+  .verticalline .linkedin_link:hover {
+	 color: #0077b5;
+ }
+ 
+ /* Resume Formatting */
+
+.no_picture_info {
+	display: block;
+	margin: 20px 0px 20px 55px;
+	font-family: "Quicktype Condensed";
+	height: 80%;
+	overflow: auto;
+	color: black;
+}
+
+.no_picture_info h1 {
+	float: left;
+	font-size: 20px;
+	margin: 0px 0px 0px 0px;
+	color: black;
+}
+
+.no_picture_info p {
+	font-size: 20px;
+	float: left;
+	margin: 0px 0px 0px 21.5px;
+	color: black;
+}
+
+.no_picture_info .resume_listing_item {
+	margin: 0px 0px 10px 0px;
+}
+
+.no_picture_info .resume_listing_item .resume_listing_name{
+	font-size: 30px;
+}
+
+.no_picture_info .resume_listing_item .resume_listing_length {
+	font-style: italic;
+}
+
+.no_picture_info .resume_listing_item .resume_listing_specifics ul{
+	margin: 5px 0px 0px 0px;
+	padding: 0px 18px;
+	list-style-type: circle;
+}
+
+.no_picture_info .resume_listing_item .resume_listing_specifics ul li{
+	
+}
+
+.no_picture_info  a {
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: strong;
+	color: black;
+}
+
+.no_picture_info a:hover {
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: strong;
+	color: #ff003b;
+}
+
+.no_picture_info a.twitter_link {
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: strong;
+	color: black;
+}
+
+.no_picture_info a.twitter_link:hover {
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: strong;
+	color: #00aced;
+}
+
+/* Contact Info */
+
+/* About Me */
+
+.no_picture_info .aboutme{
+	margin: 20px 0px 0px 19px;
+}
+
+.no_picture_info .aboutme p {
+	font-size: 15px;
+}
+
+/* Skills */
+.no_picture_info .skills {
+	margin: 20px 0px 0px 48.5px;
+}
+
+.no_picture_info .skills h1 {
+	float: left;
+	margin: 0px 25px 0px 0px;
+}
+
+/* Experience */
+.no_picture_info .experience {
+	margin: 20px 0px 0px 5.5px;
+}
+
+.no_picture_info .experience h1 {
+	float: left;
+	margin: 0px 25px 0px 0px;
+}
+
+/* Education */
+.no_picture_info .education {
+	margin: 20px 0px 0px 14px;
+}
+
+.no_picture_info .education h1 {
+	float: left;
+	text-align: right;
+	margin: 0px 25px 0px 0px;
+}
+
+/* Other Experience */
+.no_picture_info .otherexperience {
+	margin: 20px 0px 0px 5.5px;
+}
+
+.no_picture_info .otherexperience h1 {
+	float: left;
+	text-align: right;
+	margin: 0px 25px 0px 0px;
+}
+
+/* Current Projects */
+.no_picture_info .currentprojects {
+	margin: 20px 0px 0px 27px;
+}
+
+.no_picture_info .currentprojects h1 {
+	float: left;
+	text-align: right;
+	margin: 0px 25px 0px 0px;
+}
+
+/* Download */
+
+.no_picture_info .download {
+	margin: 20px 0px 20px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

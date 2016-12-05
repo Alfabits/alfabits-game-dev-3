@@ -1,0 +1,19 @@
+/* 
+Contact Style Sheet for Andrew Moore Site
+Created By: Andrew Moore
+Purpose: Includes code for the sidebar and global page elements.
+This should be included on every page. 
+ */
+ 
+ /* Vertical Line General Style */
+ .verticalline {
+	float: left;
+	border-left: 1px solid #000000;
+	padding: 0px 0px 0px 10px;
+	font-size: 20px;
+ }
+ 
+ .verticalline .linkedin_link:hover {
+	 color: #0077b5;
+ }
+ 

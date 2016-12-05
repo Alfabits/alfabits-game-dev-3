@@ -1,0 +1,24 @@
+/* 
+Sub Games Style Sheet for Andrew Moore Site
+Created By: Andrew Moore
+Purpose: Style Sheet for Sub-Pages used for games and websites.
+ */
+ 
+ /* Vertical Line General Style */
+ .verticalline {
+	float: left;
+	border-left: 1px solid #000000;
+	padding: 0px 0px 0px 10px;
+ }
+ 
+.content .sub_content h1 {
+	 font-size: 30px;
+	 font-weight: strong;
+	 color: black;
+ }
+ 
+.content .sub_content h2 {
+	 font-size: 20px;
+	 font-weight: normal;
+	 color: black;
+ }

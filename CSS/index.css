@@ -1,0 +1,48 @@
+/* 
+Andrew Moore Site Index Style Sheet
+Created By: Andrew Moore
+Purpose: Styles the content shown on the index page of my
+portfolio site. 
+ */
+
+ /* Fonts */
+@font-face{
+	font-family: Quicktype Condensed;
+	src: url(Fonts/QuickType Condensed.ttf);
+}
+ 
+@font-face{
+	font-family: Quicktype Condensed;
+	src: url(Fonts/QuickType Condensed.ttf);
+	font-weight: bold;
+}
+html {
+	height: 100%;
+}
+
+/* Page Content */
+.index_content {
+	font-family: "Quicktype Condensed";
+	margin: 10px 0px 10px 320px;
+	transition: margin-top .5s;
+	height: 80%;
+	overflow: auto;
+}
+
+.index_content h1, p {
+	color:white;
+}
+
+.index_content p {
+	font-size: 25px;
+	margin: -10px 0px 20px 0px
+}
+
+.index_content hr {
+	color:white;
+	margin: 10px 15px 20px 0px;
+	height: 1px;
+	border: none;
+    border-top: 1px solid #FFFFFF;
+}
+
