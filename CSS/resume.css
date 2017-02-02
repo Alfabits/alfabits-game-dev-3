@@ -40,7 +40,7 @@ This should be included on every page.
 .no_picture_info {
 	display: block;
 	margin: 20px 0px 20px 55px;
-	font-family: "Quicktype Condensed";
+	font-family: "Quicktype";
 	height: 80%;
 	overflow: auto;
 	color: black;
@@ -111,6 +111,9 @@ This should be included on every page.
 }
 
 /* Contact Info */
+.no_picture_info .contactinfo{
+	margin: 20px 0px 0px 2px;
+}
 
 /* About Me */
 
@@ -124,7 +127,7 @@ This should be included on every page.
 
 /* Skills */
 .no_picture_info .skills {
-	margin: 20px 0px 0px 48.5px;
+	margin: 20px 0px 0px 44px;
 }
 
 .no_picture_info .skills h1 {
