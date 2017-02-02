@@ -7,22 +7,21 @@ portfolio site.
 
  /* Fonts */
 @font-face{
-	font-family: Quicktype Condensed;
-	src: url(Fonts/QuickType Condensed.ttf);
+	font-family: 'Quicktype';
+	src: url('Fonts/quicktype_condensed-webfont.woff2') format('woff2'),
+         url('Fonts/quicktype_condensed-webfont.woff') format('woff'),
+		 url('Fonts/QuickType Condensed.ttf') format('truetype');
+	font-weight: normal;
+    font-style: normal;
 }
- 
-@font-face{
-	font-family: Quicktype Condensed;
-	src: url(Fonts/QuickType Condensed.ttf);
-	font-weight: bold;
-}
+
 html {
 	height: 100%;
 }
 
 /* Page Content */
 .index_content {
-	font-family: "Quicktype Condensed";
+	font-family: "Quicktype";
 	margin: 10px 0px 10px 320px;
 	transition: margin-top .5s;
 	height: 80%;
