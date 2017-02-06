@@ -10,7 +10,6 @@ This should be included on every page.
 	font-family: 'Quicktype';
 	src: url('/Fonts/quicktype_condensed-webfont.woff2') format('woff2'),
          url('/Fonts/quicktype_condensed-webfont.woff') format('woff'),
-		 url('/Fonts/QuickType Condensed.ttf') format('truetype'),
 		 url('/Fonts/QuickType Condensed.eot'),
 		 url('/Fonts/QuickType Condensed.eot?#iefix') format('embedded-opentype'),
 		 url('/Fonts/QuickTypeCondensed.svg#QuickTypeCondensed') format('svg');
