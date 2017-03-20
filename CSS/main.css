@@ -275,11 +275,11 @@ body {
 	color: black;
 }
 
-.showcase .yearly_games {
+.showcase div.yearly_games {
 	float: left;
 	display: block;
 	width: 100%;
-	height: auto;
+	height: 100%;
 	margin-bottom: 20px;
 }
 
