@@ -13,7 +13,7 @@ This should be included on every page.
  }
  
  /* Header */
- .header {
+.header {
 	 display: block;
 	 margin: 0px 0px 0px 0px;
  }
