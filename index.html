@@ -27,7 +27,7 @@
 		<!-- Javascript -->
 		<script src="Javascripts/jquery-3.1.1.min.js"></script>
 		<script src="Javascripts/sitenav_highlight.js"></script>
-		<script src="Javascripts/recent_experience_popout.js"></script>
+		<script src="Javascripts/overlay_reveal.js"></script>
 		<!-- CSS -->
 		<link rel="stylesheet" href="CSS/main.css"/>
 		
@@ -42,27 +42,84 @@
 	<div class="index_content">
 		<h1>About Me</h1>
 		<hr>
-		<p>My name is Andrew Moore. I'm a <strong>Game Developer</strong>, newly graduated from <strong>Algonquin College</strong>.<br>
+		<p>My name is Andrew Moore. I'm a <strong>Programmer</strong> and <strong>Media Developer</strong>, newly graduated from <strong>Algonquin College</strong>.<br>
 		I'm also available for Web Development and Graphic Design freelance work.</p>
 		
 		<p>I'm currently unemployed and looking for work.</p>
 		<hr>
 		<p>If you're interested in knowing more, check out some of my most recent work!</p>
 		
-		<!-- Andrew Moore Website -->
-		<a href="index.html" class="recent_experience">
-			<img src="Images/andrewsite_banner.png" alt="Andrew Moore Banner" width="1148" height="463">
-		</a>
+		<div class="showcase">
+			<!-- Pip Pup -->
+			<div class="box_item">
+				<img class="box_item_picture" src="Images/pip_pup_cropped.png" alt="Deathstrict Game Image">
+				<a href="deathstrict.html">
+					<div class="box_item_overlay" onmouseover="showOverlay()" onmouseleave="hideOverlay()">
+						<div class="box_item_name">Pip Pup</div>
+						<div class="box_item_bottom_content">
+							<div class="box_item_genre">Mobile, Virtual Pet</div>
+							<div class="box_item_platform">Android</div>
+						</div>			
+					</div>
+				</a>
+			</div>
 		
-		<!-- Deathstrict -->
-		<a href="deathstrict.html" class="recent_experience">
-			<img src="Images/deathstrict_image.png" alt="Deathstrict Banner" width="1148" height="463">
-		</a>
-		
-		<!-- Space Invaders -->
-		<a href="spaceinvaders.html" class="recent_experience">
-			<img src="Images/spaceinvaders.png" alt="Space Invaders: REDACTED Banner" width="1148" height="463">
-		</a>
+			<!-- Andrew Moore Website -->
+			<div class="box_item">
+				<img class="box_item_picture" src="Images/favicon_andrewmoore.png" alt="Deathstrict Game Image">
+				<a href="deathstrict.html">
+					<div class="box_item_overlay" onmouseover="showOverlay()" onmouseleave="hideOverlay()">
+						<div class="box_item_name">alfabitsgamedev.com</div>
+						<div class="box_item_bottom_content">
+							<div class="box_item_genre">Game, Graphics and Web</div>
+							<div class="box_item_platform">Andrew Moore</div>
+						</div>			
+					</div>
+				</a>
+			</div>
+			
+			<!-- WONDERCUBE -->
+			<div class="box_item">
+				<img class="box_item_picture" src="Images/wondercube_cropped.png" alt="Deathstrict Game Image">
+				<a href="deathstrict.html">
+					<div class="box_item_overlay" onmouseover="showOverlay()" onmouseleave="hideOverlay()">
+						<div class="box_item_name">WONDERCUBE</div>
+						<div class="box_item_bottom_content">
+							<div class="box_item_genre">3D Box Puzzle Game</div>
+							<div class="box_item_platform">PC</div>
+						</div>			
+					</div>
+				</a>
+			</div>
+			
+			<!-- Space Invaders: REDACTED -->
+			<div class="box_item">
+				<img class="box_item_picture" src="Images/spaceinvaders_cropped.png" alt="Deathstrict Game Image">
+				<a href="deathstrict.html">
+					<div class="box_item_overlay" onmouseover="showOverlay()" onmouseleave="hideOverlay()">
+						<div class="box_item_name">Space Invaders: REDACTED</div>
+						<div class="box_item_bottom_content">
+							<div class="box_item_genre">2D Shoot 'Em Up</div>
+							<div class="box_item_platform">PC</div>
+						</div>			
+					</div>
+				</a>
+			</div>
+			
+			<!-- Deathstrict -->
+			<div class="box_item">
+				<img class="box_item_picture" src="Images/deathstrict_image_cropped.png" alt="Deathstrict Game Image">
+				<a href="deathstrict.html">
+					<div class="box_item_overlay" onmouseover="showOverlay()" onmouseleave="hideOverlay()">
+						<div class="box_item_name">DEATHSTRICT</div>
+						<div class="box_item_bottom_content">
+							<div class="box_item_genre">Vehicle Shooter</div>
+							<div class="box_item_platform">PC</div>
+						</div>			
+					</div>
+				</a>
+			</div>
+		</div>
 		
 	</div>
 	

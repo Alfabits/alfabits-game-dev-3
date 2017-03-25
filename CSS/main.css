@@ -262,7 +262,6 @@ body {
 
 /* Expandable Boxes */
 .recent_experience {
-	height: 114px;
     z-index: 1;
     overflow-y: hidden;
 	margin: 5px 0px 10px 0px;
