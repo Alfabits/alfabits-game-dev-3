@@ -31,11 +31,10 @@ body {
 	margin: 0px 0px 0px 300px;
 	overflow: auto;
 }
-
 /* Page Content */
 .content {
 	font-family: "Quicktype";
-	margin: 10px 0px 10px 20px;
+	margin: 10px 0px 10px 0px;
 	transition: margin-top .5s;
 	height: 80%;
 	overflow: auto;
@@ -86,6 +85,36 @@ body {
 	font-size: 20px;
 	font-weight: bold;
 	color: #1DA1F2;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+ .resume_content{
+	margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: "Quicktype";
+    vertical-align: baseline;
+ }
+
+/* Vertical Line on Both Sides*/
+.verticalline_left {
+	float: left;
+	border-left: 1px solid #000000;
+	padding: 0px 0px 0px 10px;
+}
+
+.verticalline_right {
+	float: left;
+	border-right: 1px solid #000000;
+	padding: 0px 0px 0px 10px;
 }
 
 /* Index Page Content */
@@ -275,7 +304,7 @@ body {
 	color: black;
 }
 
-.showcase div.yearly_games {
+.showcase .yearly_games {
 	float: left;
 	display: block;
 	width: 100%;

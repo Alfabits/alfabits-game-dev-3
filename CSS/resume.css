@@ -14,25 +14,21 @@ This should be included on every page.
  
  /* Header */
  .header {
-	 display: block;
-	 margin: -5px 0px 0px 0px;
+	display: block;
+	margin: 0px 0px 0px 0px;
  }
  
 .header p {
-	 margin: 0px 0px 0px 20px;
-	 font-size: 25px;
+	margin: 0px 0px 0px 20px;
+	font-size: 25px;
  }
  
  .header .myName {
-	 font-size: 50px;
- }
- 
- .header .myFace {
-	 float: left;
+	font-size: 50px;
  }
  
   .verticalline .linkedin_link:hover {
-	 color: #0077b5;
+	color: #0077b5;
  }
  
  /* Resume Formatting */
@@ -43,7 +39,7 @@ This should be included on every page.
 	font-family: "Quicktype";
 	height: 80%;
 	overflow: auto;
-	color: black;
+	clear: both;
 }
 
 .no_picture_info h1 {
@@ -56,7 +52,7 @@ This should be included on every page.
 .no_picture_info p {
 	font-size: 20px;
 	float: left;
-	margin: 0px 0px 0px 21.5px;
+	margin: 0px 0px 0px 0px;
 	color: black;
 }
 
@@ -110,72 +106,32 @@ This should be included on every page.
 	color: #00aced;
 }
 
-/* Contact Info */
-.no_picture_info .contactinfo{
-	margin: 20px 0px 0px 2px;
-}
-
-/* About Me */
-
-.no_picture_info .aboutme{
-	margin: 20px 0px 0px 19px;
-}
-
-.no_picture_info .aboutme p {
-	font-size: 15px;
-}
-
-/* Skills */
-.no_picture_info .skills {
-	margin: 20px 0px 0px 44px;
-}
-
-.no_picture_info .skills h1 {
+/* Generla Content Formatting*/
+.no_picture_info .left {
 	float: left;
-	margin: 0px 25px 0px 0px;
+    width: 120px;
+    text-align: left;
 }
 
-/* Experience */
-.no_picture_info .experience {
-	margin: 20px 0px 0px 5.5px;
-}
-
-.no_picture_info .experience h1 {
+.no_picture_info .right {
 	float: left;
-	margin: 0px 25px 0px 0px;
+    margin-left: 10px;
+    min-width: 450px;
+    padding-left: 10px;
+    border-left: 1px solid 
 }
 
-/* Education */
-.no_picture_info .education {
-	margin: 20px 0px 0px 14px;
-}
-
-.no_picture_info .education h1 {
+.header .left {
 	float: left;
-	text-align: right;
-	margin: 0px 25px 0px 0px;
+	margin: 0px 0px 0px 20px;
+	padding-right: 15px;
+	border-right: 1px solid;
 }
 
-/* Other Experience */
-.no_picture_info .otherexperience {
-	margin: 20px 0px 0px 5.5px;
-}
-
-.no_picture_info .otherexperience h1 {
+.header .right {
 	float: left;
-	text-align: right;
-	margin: 0px 25px 0px 0px;
-}
-
-/* Current Projects */
-.no_picture_info .currentprojects {
-	margin: 20px 0px 0px 27px;
-}
-
-.no_picture_info .currentprojects h1 {
-	float: left;
-	text-align: right;
-	margin: 0px 25px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	min-width: 450px;
 }
 
 /* Download */
