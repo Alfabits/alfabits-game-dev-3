@@ -34,7 +34,7 @@ body {
 /* Page Content */
 .content {
 	font-family: "Quicktype";
-	margin: 10px 0px 10px 0px;
+	margin: 10px 15px 20px 15px;
 	transition: margin-top .5s;
 	height: 80%;
 	overflow: auto;
